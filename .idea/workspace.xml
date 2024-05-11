@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="" />
+    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="primera version proyecto final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +88,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KarinaAmaro/master-microservices-project.git",
+    "accountId": "33073e82-e573-4437-b33e-e962e8c18413"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/accounts-service/src/test/java/com/kat/lt/accountsservice/AccountsServiceApplicationTests.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/controller/ClientController.java" root0="SKIP_HIGHLIGHTING" />
@@ -100,6 +109,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2g5Fv7yEtcFZueNzSySRGmloqDb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,6 +148,7 @@
     "Spring Boot.EurekaServerApplication (1).executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/kat/Documents/Master Microservicios 2024/master-microservices-project/clients-service/src/main/java/com/kat/lt/clientsservice/repository",
@@ -372,11 +383,32 @@
       <workItem from="1715066020848" duration="7804000" />
       <workItem from="1715226957097" duration="1361000" />
       <workItem from="1715232537643" duration="4181000" />
-      <workItem from="1715238579411" duration="24354000" />
+      <workItem from="1715238579411" duration="24739000" />
     </task>
+    <task id="LOCAL-00001" summary="primera version proyecto final">
+      <option name="closed" value="true" />
+      <created>1715392983405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715392983405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primera version proyecto final">
+      <option name="closed" value="true" />
+      <created>1715393172486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715393172486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primera version proyecto final" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera version proyecto final" />
   </component>
 </project>
