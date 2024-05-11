@@ -1,0 +1,50 @@
+version: "3.8"
+services:
+
+  app_accounts:
+    build: ./accounts-service
+    container_name: app-accounts
+    ports:
+      - "9090:8080"
+    environment:
+      - "SPRING_PROFILES_ACTIVE=docker"
+    depends_on:
+      - mongodb
+
+  app_clients:
+    build: ./clients-service
+    container_name: app-clients
+    ports:
+      - "8080:8080"
+    environment:
+      - "SPRING_PROFILES_ACTIVE=docker"
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    container_name: mysqldb
+    platform: linux/x86_64
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    restart: always
+    environment:
+      MYSQL_USER: karina
+      MYSQL_PASSWORD: q1w2e3r4
+      MYSQL_ROOT_PASSWORD: 4kDGQDYe4JxDjRd
+    volumes:
+      - /var/lib/mysqld:/var/lib/mysql
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=karina
+      - MONGO_INITDB_ROOT_PASSWORD=123456
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:

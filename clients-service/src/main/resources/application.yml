@@ -1,0 +1,32 @@
+
+
+spring:
+  application:
+    name: clients-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/master_microservices?createDatabaseIfNotExist=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 4kDGQDYe4JxDjRd
+    driver-class: com.mysql.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+springdoc:
+  packagesToScan: com.kat.lt.clientsservice
+  cache:
+    disabled: true
+  version: '@springdoc.version@'
+  api-docs:
+    version: openapi_3_1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}

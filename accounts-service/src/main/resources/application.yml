@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: accounts-service
+  data:
+    mongodb:
+      uri: mongodb://karina:123456@localhost:27017/master_microservices?authSource=admin
+  config:
+    import: "optional:configserver:"
+  cloud:
+    config:
+      enabled: false

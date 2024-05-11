@@ -1,0 +1,25 @@
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://mysqldb:3306/master_microservices?createDatabaseIfNotExist=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 4kDGQDYe4JxDjRd
+    driver-class: com.mysql.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  application:
+    name: clients-service
+
+springdoc:
+  packagesToScan: com.kat.lt.clientsservice
+  cache:
+    disabled: true
+  version: '@springdoc.version@'
+  api-docs:
+    version: openapi_3_1
