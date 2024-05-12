@@ -6,7 +6,7 @@ spring:
     mongodb:
       uri: mongodb://karina:123456@localhost:27017/master_microservices?authSource=admin
   config:
-    import: "optional:configserver:"
+    import: "optional:configserver:http://config-service:8088"
   cloud:
     config:
       enabled: false

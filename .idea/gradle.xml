@@ -10,8 +10,17 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/accounts-service" />
             <option value="$PROJECT_DIR$/clients-service" />
+            <option value="$PROJECT_DIR$/config" />
             <option value="$PROJECT_DIR$/eureka-server" />
             <option value="$PROJECT_DIR$/gateway-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/config-server" />
           </set>
         </option>
       </GradleProjectSettings>

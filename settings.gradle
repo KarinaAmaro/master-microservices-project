@@ -8,3 +8,6 @@
 
 rootProject.name = 'master-microservices-project'
 include 'clients-service', 'accounts-service','eureka-server','gateway-service'
+include 'config'
+include 'config'
+

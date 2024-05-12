@@ -19,7 +19,7 @@ public class Client {
     private String username;
     private boolean enabled;
 
-    @OneToOne(mappedBy = "clients")
-    private Account account;
+   // @OneToOne(mappedBy = "clients")
+    //private Account account;
 
 }

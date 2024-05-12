@@ -31,7 +31,7 @@ public class ClientServiceImpl implements ClientService{
     @Override
     public Client save(Client client) {
         Account act = new Account();
-        client.setAccount(microserviceAccountSync.save(act));
+       // client.setAccount(microserviceAccountSync.save(act));
 
         return clientRepository.save(client);
     }

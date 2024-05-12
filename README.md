@@ -32,13 +32,13 @@ $ docker-compose up -d
 6.- Ir a Docker Desktop y visualizar que el contenedor se desplegará correctamente
 
 7.- Contratos de los microservcios
-```shell
-http://localhost:8090/swagger-ui/index.html
 
-http://localhost:8080/swagger-ui/index.html
+| microservice | path |
+| --- | --- |
+| account-service | http://localhost:9090/swagger-ui/index.html |
+| client-service | http://localhost:8080/swagger-ui/index.html |
+| eureka-service | http://localhost:8060/swagger-ui/index.html |
 
-http://localhost:8060/swagger-ui/index.html
-```
 
 ### Pre-requisitos 📋
 
@@ -63,7 +63,7 @@ El proyecto consiste en los siguientes modulos:
 - **account-service** - módulo que contiene el segundo de nuestros microservicios que permite el alta y consulta, utilizando como base de datos Mysql .
 - **OpenAPI** - librería de java que ayuda a la generación automatica del contrato de la API basandose en las clases y anotaciones que tiene el proyecto.
 
-<img src="/Users/kat/Downloads/microserviceProyecto.png"/>
+<img src="/Users/kat/Downloads/microserviceProyecto.png" title="Arquirectura"/>
 
 
 
@@ -74,4 +74,3 @@ El proyecto consiste en los siguientes modulos:
 ---
 
 * **AMARO TRINIDAD, KARINA** - *Autor*
-

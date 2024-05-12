@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="se actualiza README">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/kat/lt/configserver/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/accounts-service-docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/accounts-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/kat/lt/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +81,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/gateway-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/config">
           <activation />
         </task>
         <projects_view>
@@ -128,10 +157,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle./Users/kat/Documents/Master Microservicios 2024/master-microservices-project/config-server [build].executor": "Run",
+    "Gradle./Users/kat/Documents/Master Microservicios 2024/master-microservices-project/config-server [clean].executor": "Run",
     "Gradle.Build config-server.executor": "Run",
     "Gradle.Build eureka-server.executor": "Run",
     "Gradle.Build gateway-service.executor": "Run",
     "Gradle.Build master-microservices-project.executor": "Run",
+    "Gradle.config-server [build].executor": "Run",
     "Gradle.config-server [clean].executor": "Run",
     "Gradle.eureka-server [clean].executor": "Run",
     "Gradle.gateway-service [clean].executor": "Run",
@@ -144,6 +176,8 @@
     "Gradle.master-microservices-project:accounts-service [clean].executor": "Run",
     "Gradle.master-microservices-project:clients-service [build].executor": "Run",
     "Gradle.master-microservices-project:clients-service [clean].executor": "Run",
+    "Gradle.master-microservices-project:config [build].executor": "Run",
+    "Gradle.master-microservices-project:config [clean].executor": "Run",
     "Gradle.master-microservices-project:eureka-server [build].executor": "Run",
     "Gradle.master-microservices-project:gateway-service [build].executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -163,7 +197,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kat/Documents/Master Microservicios 2024/master-microservices-project/clients-service/src/main/java/com/kat/lt/clientsservice/repository",
+    "last_opened_file_path": "/Users/kat/Documents/Master Microservicios 2024/master-microservices-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,17 +207,17 @@
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/repository" />
       <recent name="$PROJECT_DIR$/accounts-service/src" />
-      <recent name="$PROJECT_DIR$/accounts-service/src/test/java/com/kat/lt/accountsservice" />
-      <recent name="$PROJECT_DIR$/accounts-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/config-server/src/main/resources/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kat.lt.clientsservice.model" />
@@ -204,6 +238,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.master-microservices-project [build]">
+    <configuration name="config-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="master-microservices-project [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,6 +272,28 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="master-microservices-project [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -270,50 +348,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="master-microservices-project:clients-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/clients-service" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="master-microservices-project:clients-service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/clients-service" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="AccountsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="master-microservices-project.accounts-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kat.lt.accountsservice.AccountsServiceApplication" />
@@ -324,6 +358,13 @@
     <configuration name="ClientsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="master-microservices-project.clients-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kat.lt.clientsservice.ClientsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="master-microservices-project.config.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kat.lt.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -366,10 +407,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.master-microservices-project [build]" />
-        <item itemvalue="Gradle.master-microservices-project:clients-service [build]" />
-        <item itemvalue="Gradle.master-microservices-project:clients-service [clean]" />
+        <item itemvalue="Gradle.master-microservices-project [clean]" />
         <item itemvalue="Gradle.master-microservices-project:accounts-service [build]" />
         <item itemvalue="Gradle.master-microservices-project:accounts-service [clean]" />
+        <item itemvalue="Gradle.config-server [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +437,8 @@
       <workItem from="1715226957097" duration="1361000" />
       <workItem from="1715232537643" duration="4181000" />
       <workItem from="1715238579411" duration="25720000" />
-      <workItem from="1715394674769" duration="25383000" />
+      <workItem from="1715394674769" duration="25487000" />
+      <workItem from="1715496250548" duration="11783000" />
     </task>
     <task id="LOCAL-00001" summary="primera version proyecto final">
       <option name="closed" value="true" />
@@ -446,7 +488,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715495757518</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="se actualiza README">
+      <option name="closed" value="true" />
+      <created>1715495985969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715495985969</updated>
+    </task>
+    <task id="LOCAL-00008" summary="se actualiza README">
+      <option name="closed" value="true" />
+      <created>1715496015635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715496015635</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,5 +516,9 @@
     <MESSAGE value="se agrega feign y se actualiza README" />
     <MESSAGE value="se actualiza README" />
     <option name="LAST_COMMIT_MESSAGE" value="se actualiza README" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

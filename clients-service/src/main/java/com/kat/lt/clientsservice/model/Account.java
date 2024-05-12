@@ -20,8 +20,8 @@ public class Account {
     private String opening_date;
     private boolean enabled;
 
-    @OneToOne
-    @JoinTable(name = "clients_account", joinColumns = @JoinColumn(name="account_id"), inverseJoinColumns = @JoinColumn(name="acoount_id"))
-    private Client clients;
+   // @OneToOne
+    //@JoinTable(name = "clients_account", joinColumns = @JoinColumn(name="account_id"), inverseJoinColumns = @JoinColumn(name="acoount_id"))
+    //private Client clients;
 
 }
