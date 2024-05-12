@@ -5,16 +5,19 @@ spring:
     name: clients-service
 
   datasource:
-    url: jdbc:mysql://localhost:3307/master_microservices?createDatabaseIfNotExist=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    url: jdbc:mysql://localhost:3307/master_microservices?createDatabaseIfNotExist=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useSSL=false
     username: root
     password: 4kDGQDYe4JxDjRd
     driver-class: com.mysql.jdbc.Driver
+
+
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: create-drop
     show-sql: true
+
 
 springdoc:
   packagesToScan: com.kat.lt.clientsservice

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="primera version proyecto final" />
+    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="primera version proyecto final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,12 +99,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KarinaAmaro/master-microservices-project.git",
-    "accountId": "33073e82-e573-4437-b33e-e962e8c18413"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KarinaAmaro&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KarinaAmaro/master-microservices-project.git&quot;,
+    &quot;accountId&quot;: &quot;33073e82-e573-4437-b33e-e962e8c18413&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/accounts-service/src/test/java/com/kat/lt/accountsservice/AccountsServiceApplicationTests.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/controller/ClientController.java" root0="SKIP_HIGHLIGHTING" />
@@ -105,6 +119,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -126,6 +143,7 @@
     "Gradle.gateway-service [clean].executor": "Run",
     "Gradle.master-microservices-project [build].executor": "Run",
     "Gradle.master-microservices-project [clean].executor": "Run",
+    "Gradle.master-microservices-project [jar].executor": "Run",
     "Gradle.master-microservices-project [projects].executor": "Run",
     "Gradle.master-microservices-project:accounts-service [buildDependents].executor": "Run",
     "Gradle.master-microservices-project:accounts-service [build].executor": "Run",
@@ -214,10 +232,32 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="master-microservices-project [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="master-microservices-project:accounts-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/accounts-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="master-microservices-project:accounts-service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/accounts-service" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -258,10 +298,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="master-microservices-project:eureka-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="master-microservices-project:clients-service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/clients-service" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -269,29 +309,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="master-microservices-project:gateway-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway-service" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -354,10 +372,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.master-microservices-project [build]" />
-        <item itemvalue="Gradle.master-microservices-project [clean]" />
-        <item itemvalue="Gradle.master-microservices-project:gateway-service [build]" />
-        <item itemvalue="Gradle.master-microservices-project:eureka-server [build]" />
         <item itemvalue="Gradle.master-microservices-project:clients-service [build]" />
+        <item itemvalue="Gradle.master-microservices-project:clients-service [clean]" />
+        <item itemvalue="Gradle.master-microservices-project:accounts-service [build]" />
+        <item itemvalue="Gradle.master-microservices-project:accounts-service [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +401,8 @@
       <workItem from="1715066020848" duration="7804000" />
       <workItem from="1715226957097" duration="1361000" />
       <workItem from="1715232537643" duration="4181000" />
-      <workItem from="1715238579411" duration="24739000" />
+      <workItem from="1715238579411" duration="25720000" />
+      <workItem from="1715394674769" duration="22724000" />
     </task>
     <task id="LOCAL-00001" summary="primera version proyecto final">
       <option name="closed" value="true" />
@@ -401,13 +420,30 @@
       <option name="project" value="LOCAL" />
       <updated>1715393172486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primera version proyecto final">
+      <option name="closed" value="true" />
+      <created>1715393403654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715393403654</updated>
+    </task>
+    <task id="LOCAL-00004" summary="primera version proyecto final">
+      <option name="closed" value="true" />
+      <created>1715393480138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715393480138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer version proyecto final" />
     <MESSAGE value="primera version proyecto final" />
     <option name="LAST_COMMIT_MESSAGE" value="primera version proyecto final" />
   </component>

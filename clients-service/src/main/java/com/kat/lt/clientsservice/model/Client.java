@@ -18,6 +18,8 @@ public class Client {
     @Column(unique = true)
     private String username;
     private boolean enabled;
+
+    @OneToOne(mappedBy = "clients")
     private Account account;
 
 }
