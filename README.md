@@ -63,7 +63,7 @@ El proyecto consiste en los siguientes modulos:
 - **account-service** - módulo que contiene el segundo de nuestros microservicios que permite el alta y consulta, utilizando como base de datos Mysql .
 - **OpenAPI** - librería de java que ayuda a la generación automatica del contrato de la API basandose en las clases y anotaciones que tiene el proyecto.
 
-![](/Users/kat/Downloads/microserviceProyecto.png)
+<img src="/Users/kat/Downloads/microserviceProyecto.png"/>
 
 
 
