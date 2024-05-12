@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="primera version proyecto final">
+    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="se agrega feign y se actualiza README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +397,7 @@
       <workItem from="1715226957097" duration="1361000" />
       <workItem from="1715232537643" duration="4181000" />
       <workItem from="1715238579411" duration="25720000" />
-      <workItem from="1715394674769" duration="22724000" />
+      <workItem from="1715394674769" duration="25145000" />
     </task>
     <task id="LOCAL-00001" summary="primera version proyecto final">
       <option name="closed" value="true" />
@@ -436,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715393480138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="se agrega feign y se actualiza README">
+      <option name="closed" value="true" />
+      <created>1715493051107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715493051107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +448,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer version proyecto final" />
     <MESSAGE value="primera version proyecto final" />
-    <option name="LAST_COMMIT_MESSAGE" value="primera version proyecto final" />
+    <MESSAGE value="se agrega feign y se actualiza README" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrega feign y se actualiza README" />
   </component>
 </project>

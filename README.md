@@ -48,8 +48,8 @@ http://localhost:8060/swagger-ui/index.html
 |   Java    |   21.x.x   | https://www.oracle.com/mx/java/technologies/downloads/#graalvmjava21 |
 |   Spring Boot   |  3.2.5    |  |
 |   Gradle   |  3.2.5    |  |
-|   Postman   |      | https://learning.postman.com/docs/getting-started/installation/installation-and-updates/ |
-|   Docker Desktop   |     | https://www.docker.com/products/docker-desktop/ |
+|   Postman   |  x.x    | https://learning.postman.com/docs/getting-started/installation/installation-and-updates/ |
+|   Docker Desktop   |  4.29.0   | https://www.docker.com/products/docker-desktop/ |
 
 
 ### Arquitectura 🔧
@@ -63,11 +63,7 @@ El proyecto consiste en los siguientes modulos:
 - **account-service** - módulo que contiene el segundo de nuestros microservicios que permite el alta y consulta, utilizando como base de datos Mysql .
 - **OpenAPI** - librería de java que ayuda a la generación automatica del contrato de la API basandose en las clases y anotaciones que tiene el proyecto.
 
-
-<img src="https://github.com/KarinaAmaro/master-microservices-project/" title="Arquitectura"><br/>
-
-
-
+![](/Users/kat/Downloads/microserviceProyecto.png)
 
 
 
