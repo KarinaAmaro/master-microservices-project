@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="se actualiza README">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/java/com/kat/lt/clientsservice/service/ClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/kat/lt/configserver/ConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/accounts-service-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/accounts-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/kat/lt/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="f31b284c-e5f6-485d-aa8e-b55c29912e03" name="Changes" comment="actualizacion de README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -438,7 +410,7 @@
       <workItem from="1715232537643" duration="4181000" />
       <workItem from="1715238579411" duration="25720000" />
       <workItem from="1715394674769" duration="25487000" />
-      <workItem from="1715496250548" duration="11783000" />
+      <workItem from="1715496250548" duration="12093000" />
     </task>
     <task id="LOCAL-00001" summary="primera version proyecto final">
       <option name="closed" value="true" />
@@ -504,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715496015635</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="actualizacion de README">
+      <option name="closed" value="true" />
+      <created>1715508309192</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715508309192</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +495,8 @@
     <MESSAGE value="primera version proyecto final" />
     <MESSAGE value="se agrega feign y se actualiza README" />
     <MESSAGE value="se actualiza README" />
-    <option name="LAST_COMMIT_MESSAGE" value="se actualiza README" />
+    <MESSAGE value="actualizacion de README" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion de README" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
